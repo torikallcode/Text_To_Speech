@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text to speech</title>
+</head>
+<body>
+    <section class="bg-gray-800 w-full h-screen flex justify-center items-center flex-col px-3">
+        <div class="w-full h-full max-w-[350px] sm:max-w-md  lg:max-w-xl flex justify-center items-center flex-col">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-semibold mb-12 text-gray-100">Text To Speech <span class="text-pink-500">converter</span></h1>
+            <textarea placeholder="Write anything here..." class="w-full h-[250px] bg-[#403d84] text-gray-100 text-base border-none outline-none p-[20px] rounded-lg resize-none mb-8"></textarea>
+            <div class="row w-full flex items-center gap-5 justify-center">
+                <select class="flex-1 select text-gray-100 bg-[#403d84] h-[50px] px-[10px] md:px-[20px] outline-none border-none rounded-lg text-xs md:text-base"></select>
+                <button class="bg-pink-500 text-gray-100 text-xs md:text-base rounded-lg border-none outline-none cursor-pointer py-2 lg:py-3 px-5">▷ Listen</button>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

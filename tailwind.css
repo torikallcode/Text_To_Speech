@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.select {
+    backround-position-x: calc(100% - 20px);
+    backround-position-y: 20px;
+}
